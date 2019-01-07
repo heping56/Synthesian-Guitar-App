@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.czys.gitara.MainMenu">
+
+    <ImageView
+        android:id="@+id/mainMenuBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/mainmenu2" />
+
+    <ImageView
+        android:id="@+id/mainMenuMid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/mainmenumid" />
+
+    <Button
+        android:id="@+id/mainMenuButtonGuitar"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/mainmenubutton"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClick"
+        android:text="@string/guitar_nylon"
+        android:textAllCaps="false"
+        android:textColor="@color/white80"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/mainMenuButtonFreePlay"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/mainMenuButtonGuitar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mainmenubutton"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClick"
+        android:text="@string/free_play"
+        android:textAllCaps="false"
+        android:textColor="@color/white80"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/mainMenuButtonChords"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/mainMenuButtonFreePlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mainmenubutton"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClick"
+        android:text="@string/lean_chords"
+        android:textAllCaps="false"
+        android:textColor="@color/white80"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/mainMenuButtonSong"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/mainMenuButtonChords"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mainmenubutton"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClick"
+        android:text="@string/learn_songs"
+        android:textAllCaps="false"
+        android:textColor="@color/white80"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/mainMenuButtonGuitarNylon"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/mainMenuButtonGuitarSteel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mainmenubutton"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClick"
+        android:text="@string/nylon"
+        android:textAllCaps="false"
+        android:textColor="@color/white80"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/mainMenuButtonGuitarSteel"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/mainMenuButtonGuitar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mainmenubutton"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClick"
+        android:text="@string/steel"
+        android:textAllCaps="false"
+        android:textColor="@color/white80"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:typeface="normal" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/mainMenuButtonSong"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/mainmenulogo" />
+
+
+</RelativeLayout>

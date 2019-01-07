@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Gitara</string>
+
+    // - - Main Menu - -
+
+    <string name="learn_songs">Nauka Utworów</string>
+    <string name="lean_chords">Nauka Akordów</string>
+    <string name="free_play">Gra Dowolna</string>
+    <string name="guitar_nylon">Struny: Nylonowe</string>
+    <string name="guitar_steel">Struny: Stalowe</string>
+
+    <string name="nylon">Nylonowe</string>
+    <string name="steel">Stalowe</string>
+
+    // - - Chords - -
+    <string name="keys">Tonacje</string>
+    <string name="chords">Akordy</string>
+
+    <string name="chord_Bb">B</string>
+    <string name="chord_BbM">Bm</string>
+    <string name="chord_Bb6">B6</string>
+    <string name="chord_BbM6">Bm6</string>
+    <string name="chord_BbM7">Bm7</string>
+    <string name="chord_Bbmaj7">Bmaj7</string>
+    <string name="chord_BbDim">Bdim</string>
+    <string name="chord_BbPlus">B+</string>
+    <string name="chord_BbSus">Bsus</string>
+
+    <string name="chord_B">H</string>
+    <string name="chord_Bm">Hm</string>
+    <string name="chord_B6">H6</string>
+    <string name="chord_B7">H7</string>
+    <string name="chord_B9">H9</string>
+    <string name="chord_Bm6">Hm6</string>
+    <string name="chord_Bmaj7">Hmaj7</string>
+    <string name="chord_Bdim">Hdim</string>
+
+    // - - Songs - -
+    <string name="songs">Utwory</string>
+    <string name="sound">Dźwięk</string>
+    <string name="tempo">Tempo</string>
+    <string name="metronome">Metronom</string>
+    <string name="play">Graj</string>
+    <string name="stop">Stop</string>
+    <string name="songsImport">Możesz zaimportować własne pliki MIDI umieszczając je w folderze /DCIM/Synthesian/</string>
+    <string name="incompatibleNotes">Wybrany utwór zawiera nuty niemożliwe do zagrania przy użyciu
+        pierwszych 4 progów gitary.
+    </string>
+    <string name="resolutionis0">Wybrany plik MIDI posiada zerowy parametr PPQ.</string>
+
+    <string-array name="songsNames">
+        <item>Gama C-dur</item>
+        <item>Cicha Noc</item>
+        <item>Czarne Oczy</item>
+        <item>Happy Birdthday</item>
+        <item>Malaguena</item>
+        <item>Ojciec Chrzestny</item>
+        <item>Guantanamera</item>
+        <item>Oda Do Radości</item>
+        <item>Imagine</item>
+        <item>Obladi Oblada</item>
+        <item>O Que Sera</item>
+        <item>Amazing Grace</item>
+        <item>Falling In Love</item>
+        <item>House Of Rising Sun</item>
+    </string-array>
+
+</resources>

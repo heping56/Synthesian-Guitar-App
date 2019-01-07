@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Gitara</string>
+
+    // - - Main Menu - -
+
+    <string name="learn_songs">Learn Songs</string>
+    <string name="lean_chords">Learn Chords</string>
+    <string name="free_play">Free Play</string>
+    <string name="guitar_nylon">Strings: Nylon</string>
+    <string name="guitar_steel">Strings: Steel</string>
+
+    <string name="nylon">Nylon</string>
+    <string name="steel">Steel</string>
+
+
+    // - - Chords - -
+    <string name="keys">Keys</string>
+    <string name="chords">Chords</string>
+
+    <string name="chord_Bb">B&#160;&#160;&#160;</string>
+    <string name="chord_BbM">B&#160;&#160;&#160;m</string>
+    <string name="chord_Bb6">B&#160;&#160;&#160;6</string>
+    <string name="chord_BbM6">B&#160;&#160;&#160;m6</string>
+    <string name="chord_BbM7">B&#160;&#160;&#160;m7</string>
+    <string name="chord_Bbmaj7">B&#160;&#160;&#160;maj7</string>
+    <string name="chord_BbDim">B&#160;&#160;&#160;dim</string>
+    <string name="chord_BbPlus">B&#160;&#160;&#160;+</string>
+    <string name="chord_BbSus">B&#160;&#160;&#160;sus</string>
+
+    <string name="chord_B">B</string>
+    <string name="chord_Bm">Bm</string>
+    <string name="chord_B6">B6</string>
+    <string name="chord_B7">B7</string>
+    <string name="chord_B9">B9</string>
+    <string name="chord_Bm6">Bm6</string>
+    <string name="chord_Bmaj7">Bmaj7</string>
+    <string name="chord_Bdim">Bdim</string>
+
+    // - - Songs - -
+    <string name="songs">Songs</string>
+    <string name="sound">Sound</string>
+    <string name="tempo">Tempo</string>
+    <string name="metronome">Metronome</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="songsImport">You can import your own MIDI files by putting them into /DCIM/Synthesian/ folder.</string>
+    <string name="incompatibleNotes">Song you selected contains notes not compatible with first 4 frets.</string>
+    <string name="resolutionis0">Selected MIDI file has PPQ set to 0.</string>
+
+    <string-array name="songsNames">
+        <item>C Major scale</item>
+        <item>Silent Night</item>
+        <item>Dark Eyes</item>
+        <item>Happy Birdthday</item>
+        <item>Malaguena</item>
+        <item>The Godfather</item>
+        <item>Guantanamera</item>
+        <item>Ode To Joy</item>
+        <item>Imagine</item>
+        <item>Obladi Oblada</item>
+        <item>O Que Sera</item>
+        <item>Amazing Grace</item>
+        <item>Falling In Love</item>
+        <item>House Of Rising Sun</item>
+    </string-array>
+
+</resources>

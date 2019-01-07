@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.czys.gitara.Chords">
+
+    <ImageView
+        android:id="@+id/neck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar" />
+
+    <ImageButton
+        android:id="@+id/notesButtons00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons00"
+        android:layout_alignStart="@+id/notesButtons00"
+        android:layout_below="@+id/notesButtons00"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons01"
+        android:layout_alignStart="@+id/notesButtons01"
+        android:layout_below="@+id/notesButtons01"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons02"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/notesButtons02"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/notesButtons00"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/notesButtons00"
+        android:layout_toRightOf="@+id/notesButtons00"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons10"
+        android:layout_alignStart="@+id/notesButtons10"
+        android:layout_alignTop="@+id/notesButtons01"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons11"
+        android:layout_alignStart="@+id/notesButtons11"
+        android:layout_alignTop="@+id/notesButtons02"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons12"
+        android:layout_alignStart="@+id/notesButtons12"
+        android:layout_alignTop="@+id/notesButtons03"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/notesButtons10"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/notesButtons10"
+        android:layout_toRightOf="@+id/notesButtons10"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons20"
+        android:layout_alignStart="@+id/notesButtons20"
+        android:layout_alignTop="@+id/notesButtons11"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons21"
+        android:layout_alignStart="@+id/notesButtons21"
+        android:layout_alignTop="@+id/notesButtons12"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons22"
+        android:layout_alignStart="@+id/notesButtons22"
+        android:layout_alignTop="@+id/notesButtons13"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/notesButtons20"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/notesButtons20"
+        android:layout_toRightOf="@+id/notesButtons20"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons30"
+        android:layout_alignStart="@+id/notesButtons30"
+        android:layout_alignTop="@+id/notesButtons21"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons31"
+        android:layout_alignStart="@+id/notesButtons31"
+        android:layout_alignTop="@+id/notesButtons22"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons32"
+        android:layout_alignStart="@+id/notesButtons32"
+        android:layout_alignTop="@+id/notesButtons23"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/notesButtons30"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_toEndOf="@+id/notesButtons30"
+        android:layout_toRightOf="@+id/notesButtons30"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons40"
+        android:layout_alignStart="@+id/notesButtons40"
+        android:layout_alignTop="@+id/notesButtons31"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons41"
+        android:layout_alignStart="@+id/notesButtons41"
+        android:layout_alignTop="@+id/notesButtons32"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons42"
+        android:layout_alignStart="@+id/notesButtons42"
+        android:layout_alignTop="@+id/notesButtons33"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/notesButtons40"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/notesButtons40"
+        android:layout_toRightOf="@+id/notesButtons40"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons50"
+        android:layout_alignStart="@+id/notesButtons50"
+        android:layout_alignTop="@+id/notesButtons41"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons51"
+        android:layout_alignStart="@+id/notesButtons51"
+        android:layout_alignTop="@+id/notesButtons42"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notesButtons52"
+        android:layout_alignStart="@+id/notesButtons52"
+        android:layout_alignTop="@+id/notesButtons43"
+        android:background="@drawable/notebutton" />
+
+    <ImageButton
+        android:id="@+id/notesButtons04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-7dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="E"
+        android:textColor="@color/white80"
+        android:textSize="36sp"
+        android:background="@drawable/notebuttonempty" />
+
+    <ImageButton
+        android:id="@+id/notesButtons14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="A"
+        android:textColor="@color/white80"
+        android:textSize="36sp"
+        android:background="@drawable/notebuttonempty" />
+
+    <ImageButton
+        android:id="@+id/notesButtons24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/notebuttonempty" />
+
+    <ImageButton
+        android:id="@+id/notesButtons34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="176dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/notebuttonempty" />
+
+    <ImageButton
+        android:id="@+id/notesButtons44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="237dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/notebuttonempty" />
+
+    <ImageButton
+        android:id="@+id/notesButtons54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="298dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/notebuttonemptyright" />
+
+    <TextView
+        android:id="@+id/notesButtons04Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="E"
+        android:textColor="@color/white80"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/notesButtons14Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="A"
+        android:textColor="@color/white80"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/notesButtons24Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="141dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="D"
+        android:textColor="@color/white80"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/notesButtons34Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="202dp"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="G"
+        android:textColor="@color/white80"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/notesButtons44Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="263dp"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/chord_B"
+        android:textColor="@color/white80"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/notesButtons54Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="324dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="E"
+        android:textColor="@color/white80"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/notesButtons00Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="-12dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons10Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="49dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons20Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="110dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons30Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="171dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons40Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="232dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons50Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="293dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons01Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="-12dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons11Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="49dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons21Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="110dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons31Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="171dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons41Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="232dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons51Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="293dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons02Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="-12dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons12Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="49dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons22Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="110dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons32Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="171dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons42Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="232dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons52Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="293dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons03Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="-12dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons13Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="49dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons23Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="110dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons33Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="171dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons43Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="232dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons53Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="293dp"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonclick" />
+
+    <TextView
+        android:id="@+id/notesButtons04Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-7dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonemptyclick" />
+
+    <TextView
+        android:id="@+id/notesButtons14Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonemptyclick" />
+
+    <TextView
+        android:id="@+id/notesButtons24Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonemptyclick" />
+
+    <TextView
+        android:id="@+id/notesButtons34Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="176dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonemptyclick" />
+
+    <TextView
+        android:id="@+id/notesButtons44Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="237dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonemptyclick" />
+
+    <TextView
+        android:id="@+id/notesButtons54Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="298dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/notebuttonemptyclickright" />
+
+</RelativeLayout>
