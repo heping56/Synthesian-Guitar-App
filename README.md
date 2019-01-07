@@ -2,9 +2,11 @@
 
 This is a mobile application designed to help users play guitar chords as well as songs.
 
+
 ![Screenshots](demo.png)
 
-Full documentaion available in polish - <i>Dokumentacja.pdf
+
+Full documentaion available in polish - <i>Dokumentacja.pdf</i>
 
 External libraries used:
 
